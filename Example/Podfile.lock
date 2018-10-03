@@ -1,0 +1,16 @@
+PODS:
+  - WWPasscodeInput (0.1.0)
+
+DEPENDENCIES:
+  - WWPasscodeInput (from `../`)
+
+EXTERNAL SOURCES:
+  WWPasscodeInput:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWPasscodeInput: 7422a469ff8ae4652ac6ecc8ad49483843fc4195
+
+PODFILE CHECKSUM: 35008bc71672c1662f142849a50fbace953c6603
+
+COCOAPODS: 1.5.3

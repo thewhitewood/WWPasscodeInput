@@ -1,0 +1,22 @@
+{
+  "name": "WWPasscodeInput",
+  "version": "0.1.0",
+  "summary": "A short description of WWPasscodeInput.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nick@thewhitewood.com/WWPasscodeInput",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nick@thewhitewood.com": "nick@thewhitewood.com"
+  },
+  "source": {
+    "git": "https://github.com/nick@thewhitewood.com/WWPasscodeInput.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WWPasscodeInput/Classes/**/*"
+}

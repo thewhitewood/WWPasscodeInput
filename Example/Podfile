@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WWPasscodeInput_Example' do
+  pod 'WWPasscodeInput', :path => '../'
+
+  target 'WWPasscodeInput_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

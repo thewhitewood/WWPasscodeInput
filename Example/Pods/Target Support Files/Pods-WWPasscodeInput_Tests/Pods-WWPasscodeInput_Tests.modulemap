@@ -1,0 +1,6 @@
+framework module Pods_WWPasscodeInput_Tests {
+  umbrella header "Pods-WWPasscodeInput_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

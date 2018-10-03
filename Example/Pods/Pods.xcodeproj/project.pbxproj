@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E279E121654F7200A750F0 /* WWPasscodeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E279E021654F7100A750F0 /* WWPasscodeInput.swift */; };
+		01E279E22165509800A750F0 /* WWPasscodeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E279E021654F7100A750F0 /* WWPasscodeInput.swift */; };
+		01E279E32165509900A750F0 /* WWPasscodeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E279E021654F7100A750F0 /* WWPasscodeInput.swift */; };
+		0C2F91FA18F10E6B62E0DBCC2F2FD876 /* WWPasscodeInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D129CCB8214433D57D3ECA8FA17AF1 /* WWPasscodeInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700C5EE4CA17F9D4EB46F6D6E0D55CD8 /* Pods-WWPasscodeInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9B25531BDC5A501EC5828548AEE37E /* Pods-WWPasscodeInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA667BCEBF4701731929660A6A33395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A2341127D5522268689F2A00D5C872B4 /* Pods-WWPasscodeInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 375515687ABAB1F57FFEB820319EC45B /* Pods-WWPasscodeInput_Example-dummy.m */; };
+		A257286DA66FF4957A335613CFF6BA25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B8386B57A7A9B9D62D19DE594012675E /* Pods-WWPasscodeInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2FF75F754BC0C7A2166DE42CA694F6 /* Pods-WWPasscodeInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C755F2BA8C6D976C59139A11C3C12496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D36569E50FD96DF80210718CBDC069B5 /* WWPasscodeInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D54799A5730C58140F47AC26DDB5FB23 /* WWPasscodeInput-dummy.m */; };
+		E88BDE6759BCA5B895E59C174EAC8980 /* Pods-WWPasscodeInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D3393FC0E884DC956091F8A2D45B1 /* Pods-WWPasscodeInput_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CD9990C5304FEBCF6F917ABBCE48433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A5A8F9EFAE3C3FE1A1F1EDFBA61CF5;
+			remoteInfo = WWPasscodeInput;
+		};
+		5AE61B9F33DFBEEE002E0D7776C01302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10B2CA5C2B1EEA8D6AB7C1A1FD5565B;
+			remoteInfo = "Pods-WWPasscodeInput_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E279E021654F7100A750F0 /* WWPasscodeInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WWPasscodeInput.swift; path = WWPasscodeInput/Classes/WWPasscodeInput.swift; sourceTree = "<group>"; };
+		18F9546269D5DDA720405787005C10DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1B459F871B40EEA98EE06ECC0D09FB58 /* WWPasscodeInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWPasscodeInput-prefix.pch"; sourceTree = "<group>"; };
+		21316474B14BA38D273827779421E446 /* Pods-WWPasscodeInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWPasscodeInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		231C717B73A076989728ADCAEFF96680 /* Pods-WWPasscodeInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWPasscodeInput_Example.release.xcconfig"; sourceTree = "<group>"; };
+		272CD3C53FF9130DB6C65461ACCBCA27 /* Pods-WWPasscodeInput_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WWPasscodeInput_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		27D129CCB8214433D57D3ECA8FA17AF1 /* WWPasscodeInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWPasscodeInput-umbrella.h"; sourceTree = "<group>"; };
+		311B8205916465436D7EFDA328BBE085 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357C8BF6F73240E643788DD480067AFD /* Pods-WWPasscodeInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WWPasscodeInput_Example.modulemap"; sourceTree = "<group>"; };
+		375515687ABAB1F57FFEB820319EC45B /* Pods-WWPasscodeInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WWPasscodeInput_Example-dummy.m"; sourceTree = "<group>"; };
+		3E2FF75F754BC0C7A2166DE42CA694F6 /* Pods-WWPasscodeInput_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WWPasscodeInput_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E7044A9FB9A3071C0609BEE01A1B3B1 /* Pods-WWPasscodeInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWPasscodeInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		404CDD40FF6ABC6509AF849C8C8473B0 /* WWPasscodeInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWPasscodeInput.xcconfig; sourceTree = "<group>"; };
+		4C9B25531BDC5A501EC5828548AEE37E /* Pods-WWPasscodeInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WWPasscodeInput_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86653BE168BED25E9F38120112D55B79 /* Pods-WWPasscodeInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WWPasscodeInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4499E9B3194DBF33320AD2DC8B69785 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77C4E90C953B204283B0AF99AA32665 /* Pods_WWPasscodeInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWPasscodeInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8FBD5643BBC8DCF47BD5DEAD77A29E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B36B18F5A4A3463B6B043F063D935E2E /* Pods-WWPasscodeInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WWPasscodeInput_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B57192672D091702A69026491249497D /* WWPasscodeInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWPasscodeInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B616EB7DA3D6643FEB271BE2133E8E6D /* Pods-WWPasscodeInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWPasscodeInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF765054AC7980651CA2F5E36A52F79 /* Pods_WWPasscodeInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWPasscodeInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03428B7A217151595F37CA99AD6E70B /* WWPasscodeInput.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WWPasscodeInput.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C18D3393FC0E884DC956091F8A2D45B1 /* Pods-WWPasscodeInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WWPasscodeInput_Tests-dummy.m"; sourceTree = "<group>"; };
+		C4EFAA54A2BE49F354ECACF268F10BEB /* Pods-WWPasscodeInput_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WWPasscodeInput_Tests-resources.sh"; sourceTree = "<group>"; };
+		C52A34CC244FEDF3B9EBDB1E28AF6AB0 /* Pods-WWPasscodeInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WWPasscodeInput_Tests.modulemap"; sourceTree = "<group>"; };
+		C5A1ADF033FEA2B4190356002489D61F /* Pods-WWPasscodeInput_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WWPasscodeInput_Example-resources.sh"; sourceTree = "<group>"; };
+		C8B719AB253D3DF9E762BD7759A9FF45 /* WWPasscodeInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WWPasscodeInput.modulemap; sourceTree = "<group>"; };
+		D54799A5730C58140F47AC26DDB5FB23 /* WWPasscodeInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWPasscodeInput-dummy.m"; sourceTree = "<group>"; };
+		D748445AD28ADC4EB476FF929756DA2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F9CA8E5DEB5E990639B5585690C72E /* Pods-WWPasscodeInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WWPasscodeInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3F80980BF5133D3540499869A0026B5 /* Pods-WWPasscodeInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWPasscodeInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E629A65B976839C742117C3A76358BA3 /* Pods-WWPasscodeInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWPasscodeInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72EC088EA374F9510A90A83024304FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C755F2BA8C6D976C59139A11C3C12496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803A73E477667C3CD7E2CF9D70610969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA667BCEBF4701731929660A6A33395 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD18B24AA8CE730AB9E5135555668A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A257286DA66FF4957A335613CFF6BA25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5149FB475C710B317D5FFE399C09FF1F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				18F9546269D5DDA720405787005C10DB /* LICENSE */,
+				AD8FBD5643BBC8DCF47BD5DEAD77A29E /* README.md */,
+				C03428B7A217151595F37CA99AD6E70B /* WWPasscodeInput.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		51862053D66A28AB641446B327275AA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D748445AD28ADC4EB476FF929756DA2D /* Info.plist */,
+				C8B719AB253D3DF9E762BD7759A9FF45 /* WWPasscodeInput.modulemap */,
+				404CDD40FF6ABC6509AF849C8C8473B0 /* WWPasscodeInput.xcconfig */,
+				D54799A5730C58140F47AC26DDB5FB23 /* WWPasscodeInput-dummy.m */,
+				1B459F871B40EEA98EE06ECC0D09FB58 /* WWPasscodeInput-prefix.pch */,
+				27D129CCB8214433D57D3ECA8FA17AF1 /* WWPasscodeInput-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WWPasscodeInput";
+			sourceTree = "<group>";
+		};
+		5840E3A2DCE36A62C8B01208E59AA44A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5D7049EA77BF829E59CD5DD0A39C490 /* WWPasscodeInput */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5840E3A2DCE36A62C8B01208E59AA44A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A72F083EC10A8F21FE32BBE405A71275 /* Products */,
+				8F804ECC7E439F961F68D4EAEFE5391C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F804ECC7E439F961F68D4EAEFE5391C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0EC2DD8DA4F0A75876A73C3AE9481 /* Pods-WWPasscodeInput_Example */,
+				F8DBFE301CB907B1309C8DC3B5C1BB96 /* Pods-WWPasscodeInput_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A72F083EC10A8F21FE32BBE405A71275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF765054AC7980651CA2F5E36A52F79 /* Pods_WWPasscodeInput_Example.framework */,
+				A77C4E90C953B204283B0AF99AA32665 /* Pods_WWPasscodeInput_Tests.framework */,
+				B57192672D091702A69026491249497D /* WWPasscodeInput.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C0EC2DD8DA4F0A75876A73C3AE9481 /* Pods-WWPasscodeInput_Example */ = {
+			isa = PBXGroup;
+			children = (
+				311B8205916465436D7EFDA328BBE085 /* Info.plist */,
+				357C8BF6F73240E643788DD480067AFD /* Pods-WWPasscodeInput_Example.modulemap */,
+				86653BE168BED25E9F38120112D55B79 /* Pods-WWPasscodeInput_Example-acknowledgements.markdown */,
+				3E7044A9FB9A3071C0609BEE01A1B3B1 /* Pods-WWPasscodeInput_Example-acknowledgements.plist */,
+				375515687ABAB1F57FFEB820319EC45B /* Pods-WWPasscodeInput_Example-dummy.m */,
+				B36B18F5A4A3463B6B043F063D935E2E /* Pods-WWPasscodeInput_Example-frameworks.sh */,
+				C5A1ADF033FEA2B4190356002489D61F /* Pods-WWPasscodeInput_Example-resources.sh */,
+				4C9B25531BDC5A501EC5828548AEE37E /* Pods-WWPasscodeInput_Example-umbrella.h */,
+				B616EB7DA3D6643FEB271BE2133E8E6D /* Pods-WWPasscodeInput_Example.debug.xcconfig */,
+				231C717B73A076989728ADCAEFF96680 /* Pods-WWPasscodeInput_Example.release.xcconfig */,
+			);
+			name = "Pods-WWPasscodeInput_Example";
+			path = "Target Support Files/Pods-WWPasscodeInput_Example";
+			sourceTree = "<group>";
+		};
+		D5D7049EA77BF829E59CD5DD0A39C490 /* WWPasscodeInput */ = {
+			isa = PBXGroup;
+			children = (
+				01E279E021654F7100A750F0 /* WWPasscodeInput.swift */,
+				5149FB475C710B317D5FFE399C09FF1F /* Pod */,
+				51862053D66A28AB641446B327275AA2 /* Support Files */,
+			);
+			name = WWPasscodeInput;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8DBFE301CB907B1309C8DC3B5C1BB96 /* Pods-WWPasscodeInput_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4499E9B3194DBF33320AD2DC8B69785 /* Info.plist */,
+				C52A34CC244FEDF3B9EBDB1E28AF6AB0 /* Pods-WWPasscodeInput_Tests.modulemap */,
+				D8F9CA8E5DEB5E990639B5585690C72E /* Pods-WWPasscodeInput_Tests-acknowledgements.markdown */,
+				21316474B14BA38D273827779421E446 /* Pods-WWPasscodeInput_Tests-acknowledgements.plist */,
+				C18D3393FC0E884DC956091F8A2D45B1 /* Pods-WWPasscodeInput_Tests-dummy.m */,
+				272CD3C53FF9130DB6C65461ACCBCA27 /* Pods-WWPasscodeInput_Tests-frameworks.sh */,
+				C4EFAA54A2BE49F354ECACF268F10BEB /* Pods-WWPasscodeInput_Tests-resources.sh */,
+				3E2FF75F754BC0C7A2166DE42CA694F6 /* Pods-WWPasscodeInput_Tests-umbrella.h */,
+				E3F80980BF5133D3540499869A0026B5 /* Pods-WWPasscodeInput_Tests.debug.xcconfig */,
+				E629A65B976839C742117C3A76358BA3 /* Pods-WWPasscodeInput_Tests.release.xcconfig */,
+			);
+			name = "Pods-WWPasscodeInput_Tests";
+			path = "Target Support Files/Pods-WWPasscodeInput_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35BC3A14F555F92631B9B07D9E8AAF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8386B57A7A9B9D62D19DE594012675E /* Pods-WWPasscodeInput_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942D218AB81709478E8F0464B6643ECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700C5EE4CA17F9D4EB46F6D6E0D55CD8 /* Pods-WWPasscodeInput_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF367DCCC6A64B676C35F1EBEAAF462A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2F91FA18F10E6B62E0DBCC2F2FD876 /* WWPasscodeInput-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A10B2CA5C2B1EEA8D6AB7C1A1FD5565B /* Pods-WWPasscodeInput_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2E934164F86CFB54A0132BAE7B2352 /* Build configuration list for PBXNativeTarget "Pods-WWPasscodeInput_Example" */;
+			buildPhases = (
+				942D218AB81709478E8F0464B6643ECA /* Headers */,
+				5500CD8C1E169BCB28719C88627ACAC8 /* Sources */,
+				803A73E477667C3CD7E2CF9D70610969 /* Frameworks */,
+				76FBCCF273C52B597D7565CB5AEDBEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FA7D629519EA9715770AE2E43485A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-WWPasscodeInput_Example";
+			productName = "Pods-WWPasscodeInput_Example";
+			productReference = BEF765054AC7980651CA2F5E36A52F79 /* Pods_WWPasscodeInput_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A5A8F9EFAE3C3FE1A1F1EDFBA61CF5 /* WWPasscodeInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88109B27D2E7511211D0449BDFCB693 /* Build configuration list for PBXNativeTarget "WWPasscodeInput" */;
+			buildPhases = (
+				EF367DCCC6A64B676C35F1EBEAAF462A /* Headers */,
+				E31B72A298081287FEBF189C0E03B66D /* Sources */,
+				FCD18B24AA8CE730AB9E5135555668A0 /* Frameworks */,
+				93CB392021E6DCBBBB5737670CFEB38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWPasscodeInput;
+			productName = WWPasscodeInput;
+			productReference = B57192672D091702A69026491249497D /* WWPasscodeInput.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89062EE5D61A035BBFD0642C195FCDA /* Pods-WWPasscodeInput_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8054AD9C293CA8E1CD92ECAA788EB720 /* Build configuration list for PBXNativeTarget "Pods-WWPasscodeInput_Tests" */;
+			buildPhases = (
+				35BC3A14F555F92631B9B07D9E8AAF45 /* Headers */,
+				DBA6A541933DE5ACC961326EB469B8CF /* Sources */,
+				72EC088EA374F9510A90A83024304FD4 /* Frameworks */,
+				19AAB0E36070887461DA7236C5807757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F96EDE9B2B6857B79598C19DE8CB5E /* PBXTargetDependency */,
+			);
+			name = "Pods-WWPasscodeInput_Tests";
+			productName = "Pods-WWPasscodeInput_Tests";
+			productReference = A77C4E90C953B204283B0AF99AA32665 /* Pods_WWPasscodeInput_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					A10B2CA5C2B1EEA8D6AB7C1A1FD5565B = {
+						LastSwiftMigration = 1000;
+					};
+					C2A5A8F9EFAE3C3FE1A1F1EDFBA61CF5 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A72F083EC10A8F21FE32BBE405A71275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10B2CA5C2B1EEA8D6AB7C1A1FD5565B /* Pods-WWPasscodeInput_Example */,
+				D89062EE5D61A035BBFD0642C195FCDA /* Pods-WWPasscodeInput_Tests */,
+				C2A5A8F9EFAE3C3FE1A1F1EDFBA61CF5 /* WWPasscodeInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19AAB0E36070887461DA7236C5807757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FBCCF273C52B597D7565CB5AEDBEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CB392021E6DCBBBB5737670CFEB38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5500CD8C1E169BCB28719C88627ACAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E279E121654F7200A750F0 /* WWPasscodeInput.swift in Sources */,
+				A2341127D5522268689F2A00D5C872B4 /* Pods-WWPasscodeInput_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA6A541933DE5ACC961326EB469B8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E279E32165509900A750F0 /* WWPasscodeInput.swift in Sources */,
+				E88BDE6759BCA5B895E59C174EAC8980 /* Pods-WWPasscodeInput_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B72A298081287FEBF189C0E03B66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E279E22165509800A750F0 /* WWPasscodeInput.swift in Sources */,
+				D36569E50FD96DF80210718CBDC069B5 /* WWPasscodeInput-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FA7D629519EA9715770AE2E43485A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWPasscodeInput;
+			target = C2A5A8F9EFAE3C3FE1A1F1EDFBA61CF5 /* WWPasscodeInput */;
+			targetProxy = 4CD9990C5304FEBCF6F917ABBCE48433 /* PBXContainerItemProxy */;
+		};
+		C2F96EDE9B2B6857B79598C19DE8CB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WWPasscodeInput_Example";
+			target = A10B2CA5C2B1EEA8D6AB7C1A1FD5565B /* Pods-WWPasscodeInput_Example */;
+			targetProxy = 5AE61B9F33DFBEEE002E0D7776C01302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06C43A445BB59BB07A748E2E5E995159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B616EB7DA3D6643FEB271BE2133E8E6D /* Pods-WWPasscodeInput_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWPasscodeInput_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWPasscodeInput_Example/Pods-WWPasscodeInput_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DCC36E3BDD67C04C1CB7D5FF2AFF94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F80980BF5133D3540499869A0026B5 /* Pods-WWPasscodeInput_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWPasscodeInput_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWPasscodeInput_Tests/Pods-WWPasscodeInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A077B4E99796FE83E22A17ACB7012F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404CDD40FF6ABC6509AF849C8C8473B0 /* WWPasscodeInput.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WWPasscodeInput/WWPasscodeInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWPasscodeInput/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWPasscodeInput/WWPasscodeInput.modulemap";
+				PRODUCT_MODULE_NAME = WWPasscodeInput;
+				PRODUCT_NAME = WWPasscodeInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C677B22B6192C261EDF0674CA967E169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231C717B73A076989728ADCAEFF96680 /* Pods-WWPasscodeInput_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWPasscodeInput_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWPasscodeInput_Example/Pods-WWPasscodeInput_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDCBE8EE6CE963118F4B9649B590E80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E629A65B976839C742117C3A76358BA3 /* Pods-WWPasscodeInput_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWPasscodeInput_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWPasscodeInput_Tests/Pods-WWPasscodeInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6BEEDE3E7099793CEB40E3B38BA81F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404CDD40FF6ABC6509AF849C8C8473B0 /* WWPasscodeInput.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WWPasscodeInput/WWPasscodeInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWPasscodeInput/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWPasscodeInput/WWPasscodeInput.modulemap";
+				PRODUCT_MODULE_NAME = WWPasscodeInput;
+				PRODUCT_NAME = WWPasscodeInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2E934164F86CFB54A0132BAE7B2352 /* Build configuration list for PBXNativeTarget "Pods-WWPasscodeInput_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C43A445BB59BB07A748E2E5E995159 /* Debug */,
+				C677B22B6192C261EDF0674CA967E169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8054AD9C293CA8E1CD92ECAA788EB720 /* Build configuration list for PBXNativeTarget "Pods-WWPasscodeInput_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCC36E3BDD67C04C1CB7D5FF2AFF94B /* Debug */,
+				DDCBE8EE6CE963118F4B9649B590E80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88109B27D2E7511211D0449BDFCB693 /* Build configuration list for PBXNativeTarget "WWPasscodeInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A077B4E99796FE83E22A17ACB7012F90 /* Debug */,
+				F6BEEDE3E7099793CEB40E3B38BA81F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
