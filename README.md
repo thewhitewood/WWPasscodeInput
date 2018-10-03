@@ -22,7 +22,7 @@ pod 'WWPasscodeInput'
 
 ## Author
 
-nick@thewhitewood.com, nick@thewhitewood.com
+[thewhitewood](https://twitter.com/thewhitewood)
 
 ## License
 
