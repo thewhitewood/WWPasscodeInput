@@ -2,7 +2,7 @@
   "name": "WWPasscodeInput",
   "version": "0.1.0",
   "summary": "A short description of WWPasscodeInput.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "WWPasscodeInput is a customisable number passcode view written in Swift.",
   "homepage": "https://github.com/nick@thewhitewood.com/WWPasscodeInput",
   "license": {
     "type": "MIT",
@@ -15,8 +15,9 @@
     "git": "https://github.com/nick@thewhitewood.com/WWPasscodeInput.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/thewhitewood",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "WWPasscodeInput/Classes/**/*"
 }

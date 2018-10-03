@@ -19,18 +19,16 @@ class ViewController: UIViewController {
         
         passcodeField.translatesAutoresizingMaskIntoConstraints = false
         
-        let horizontalConstraint = NSLayoutConstraint(item: passcodeField, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: view, attribute: NSLayoutAttribute.centerX, multiplier: 1, constant: 0)
+        let horizontalConstraint = NSLayoutConstraint(item: passcodeField, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: NSLayoutConstraint.Relation.equal, toItem: view, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: 0)
         
-        let verticalConstraint = NSLayoutConstraint(item: passcodeField, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: view, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0)
+        let verticalConstraint = NSLayoutConstraint(item: passcodeField, attribute: NSLayoutConstraint.Attribute.centerY, relatedBy: NSLayoutConstraint.Relation.equal, toItem: view, attribute: NSLayoutConstraint.Attribute.centerY, multiplier: 1, constant: 0)
         
         view.addConstraints([horizontalConstraint, verticalConstraint])
         
         passcodeField.passcodeLimit = 6
         passcodeField.markerColour = UIColor.black.withAlphaComponent(0.2)
         passcodeField.completedMarkerColour = .black
-        
-        passcodeField.becomeFirstResponder()
+        passcodeField.markerRadius = 5
+        //passcodeField.becomeFirstResponder()
     }
-
 }
-

@@ -1,5 +1,5 @@
 import XCTest
-//import WWPasscodeInput
+import WWPasscodeInput
 
 class Tests: XCTestCase {
     

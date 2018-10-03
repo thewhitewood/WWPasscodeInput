@@ -28,7 +28,7 @@ WWPasscodeInput is a customisable number passcode view written in Swift.
   s.source           = { :git => 'https://github.com/nick@thewhitewood.com/WWPasscodeInput.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/thewhitewood'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WWPasscodeInput/Classes/**/*'
   

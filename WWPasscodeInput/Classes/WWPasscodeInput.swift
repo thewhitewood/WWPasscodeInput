@@ -25,15 +25,11 @@
 import UIKit
 
 protocol WWPasscodeInputDelegate {
-    @available(iOS 9.0, *)
     func passcodeInputDidChangeInput(passcodeInput:WWPasscodeInput, completed:Bool, value:String?)
 }
 
-@available(iOS 9.0, *)
-@available(iOS 8.2, *)
-@available(iOS 8.2, *)
 @IBDesignable
-class WWPasscodeInput:UIView {
+public class WWPasscodeInput:UIView {
     
     var delegate:WWPasscodeInputDelegate?
     
@@ -43,31 +39,35 @@ class WWPasscodeInput:UIView {
         didSet { resetView() }
     }
     
-    @IBInspectable var textColor:UIColor = .black {
+    @IBInspectable public var textColor:UIColor = .black {
         didSet { resetView() }
     }
     
-    @IBInspectable var passcodeLimit:Int = 6 {
+    @IBInspectable public var passcodeLimit:Int = 6 {
         didSet { resetView() }
     }
     
-    @IBInspectable var markerOutlineColour:UIColor = .gray {
+    @IBInspectable public var markerRadius:Int = 5 {
+        didSet { resetView() }
+    }
+    
+    @IBInspectable public var markerOutlineColour:UIColor = .gray {
         didSet{ resetView() }
     }
     
-    @IBInspectable var markerColour:UIColor = .gray {
+    @IBInspectable public var markerColour:UIColor = .gray {
         didSet{ resetView() }
     }
     
-    @IBInspectable var completedMarkerColour:UIColor = .black {
+    @IBInspectable public var completedMarkerColour:UIColor = .black {
         didSet{ resetView() }
     }
     
-    @IBInspectable var completedMarkerOutlineColour:UIColor = .black {
+    @IBInspectable public var completedMarkerOutlineColour:UIColor = .black {
         didSet{ resetView() }
     }
     
-    @IBInspectable var markerBorderWidth:CGFloat = 0.0 {
+    @IBInspectable public var markerBorderWidth:CGFloat = 0.0 {
         didSet{ resetView() }
     }
     
@@ -114,11 +114,11 @@ class WWPasscodeInput:UIView {
         configureView()
     }
     
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         return CGSize(width: 250, height: 50)
     }
     
-    override func becomeFirstResponder() -> Bool {
+    override public func becomeFirstResponder() -> Bool {
         return inputField.becomeFirstResponder()
     }
     
@@ -181,7 +181,7 @@ class WWPasscodeInput:UIView {
         
         // Create Markers and Stock
         for _ in 0..<passcodeLimit {
-            let marker = Marker()
+            let marker = Marker(markerRadius: markerRadius)
             marker.backgroundColor = markerColour
             marker.layer.borderColor = markerOutlineColour.cgColor
             marker.layer.borderWidth = markerBorderWidth
@@ -215,10 +215,10 @@ class WWPasscodeInput:UIView {
 
 //MARK:- UITextFieldDelegate
 
-@available(iOS 9.0, *)
 extension WWPasscodeInput : UITextFieldDelegate {
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         guard range.location < passcodeLimit else { return false }
         
@@ -249,6 +249,8 @@ extension WWPasscodeInput : UITextFieldDelegate {
 
 internal class Marker:UIView {
     
+    private var markerRadius:Int = 5
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         configureView()
@@ -259,11 +261,17 @@ internal class Marker:UIView {
         configureView()
     }
     
+    convenience init(markerRadius:Int){
+        self.init(frame: CGRect(x: 0, y: 0, width: markerRadius * 2, height: markerRadius * 2))
+        self.markerRadius = markerRadius
+        configureView()
+    }
+    
     private func configureView(){
-        layer.cornerRadius = 10
+        layer.cornerRadius = CGFloat(markerRadius)
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 20, height: 20)
+        return CGSize(width: markerRadius * 2, height: markerRadius * 2)
     }
 }
