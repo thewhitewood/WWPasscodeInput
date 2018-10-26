@@ -68,9 +68,7 @@ class MyViewController: UIViewController {
 
 ## Author
 
-Website: [Nicholas Wood](www.thewhitewood.com)
-
-Twitter: [@thewhitewood](https://twitter.com/thewhitewood)
+Nicholas Wood ([Web](www.thewhitewood.com)/ [@thewhitewood](https://twitter.com/thewhitewood))
 
 ## License
 
