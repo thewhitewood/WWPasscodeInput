@@ -43,6 +43,8 @@ Download and add `WWPasscodeInput.swift` to your project.
 
 ### Quick Start
 
+Example using autolayout constraints.
+
 ```
 import WWPasscodeInput
 
@@ -57,9 +59,7 @@ class MyViewController: UIViewController {
         passcodeField.translatesAutoresizingMaskIntoConstraints = false
         
         let horizontalConstraint = NSLayoutConstraint(item: passcodeField, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: NSLayoutConstraint.Relation.equal, toItem: view, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: 0)
-        
         let verticalConstraint = NSLayoutConstraint(item: passcodeField, attribute: NSLayoutConstraint.Attribute.centerY, relatedBy: NSLayoutConstraint.Relation.equal, toItem: view, attribute: NSLayoutConstraint.Attribute.centerY, multiplier: 1, constant: 0)
-        
         view.addConstraints([horizontalConstraint, verticalConstraint])
     }
 
@@ -69,6 +69,7 @@ class MyViewController: UIViewController {
 ## Author
 
 Website: [Nicholas Wood](www.thewhitewood.com)
+
 Twitter: [@thewhitewood](https://twitter.com/thewhitewood)
 
 ## License
