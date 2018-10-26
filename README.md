@@ -13,17 +13,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-WWPasscodeInput is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+
+To integrate WWPasscodeInput into your Xcode project using CocoaPods, specify it in your Podfile:
 
 ```ruby
 pod 'WWPasscodeInput'
 ```
 
+### Manually
+
+Download and add `WWPasscodeInput.swift` to your project.
+
+
 ## Author
 
-[thewhitewood](https://twitter.com/thewhitewood)
+Website: [Nicholas Wood](www.thewhitewood.com) Twitter: [thewhitewood](https://twitter.com/thewhitewood)
 
 ## License
 
-WWPasscodeInput is available under the MIT license. See the LICENSE file for more info.
+WWPasscodeInput is available under the MIT license. See the [LICENSE](https://github.com/thewhitewood/WWPasscodeInput/blob/master/LICENSE) file for more info.
