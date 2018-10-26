@@ -5,6 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/WWPasscodeInput.svg?style=flat)](https://cocoapods.org/pods/WWPasscodeInput)
 [![Platform](https://img.shields.io/cocoapods/p/WWPasscodeInput.svg?style=flat)](https://cocoapods.org/pods/WWPasscodeInput)
 
+## Features
+* Set the length of input required
+* Set the size of input indicators
+* Set colours for background and borders of input indicators for idle and completed states
+* Set the border size of input indicators
+* Set custom font and text color for input previews
+* Check the input and completion of input via `WWPasscodeInputDelegate`
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
