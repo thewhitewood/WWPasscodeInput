@@ -42,7 +42,9 @@ Download and add `WWPasscodeInput.swift` to your project.
 ## Usage
 
 ### Quick Start
-```import WWPasscodeInput
+
+```
+import WWPasscodeInput
 
 class MyViewController: UIViewController {
 
@@ -61,7 +63,8 @@ class MyViewController: UIViewController {
         view.addConstraints([horizontalConstraint, verticalConstraint])
     }
 
-}```
+}
+```
 
 ## Author
 
