@@ -33,7 +33,8 @@ Download and add `WWPasscodeInput.swift` to your project.
 
 ## Author
 
-Website: [Nicholas Wood](www.thewhitewood.com) Twitter: [thewhitewood](https://twitter.com/thewhitewood)
+Website: [Nicholas Wood](www.thewhitewood.com)
+Twitter: [thewhitewood](https://twitter.com/thewhitewood)
 
 ## License
 
