@@ -70,7 +70,7 @@ class MyViewController: UIViewController {
 }
 ```
 
-#### WWPasscodeInputDelegate
+### WWPasscodeInputDelegate
 
 Handle input changes through the `WWPasscodeInputDelegate` by setting your instance `delegate` and implementing the `passcodeInputDidChangeInput` method as labelled below.
 
