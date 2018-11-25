@@ -70,6 +70,16 @@ class MyViewController: UIViewController {
 }
 ```
 
+#### WWPasscodeInputDelegate
+
+Handle input changes through the `WWPasscodeInputDelegate` by setting your instance `delegate` and implementing the `passcodeInputDidChangeInput` method as labelled below.
+
+```
+protocol WWPasscodeInputDelegate {
+    func passcodeInputDidChangeInput(passcodeInput:WWPasscodeInput, completed:Bool, value:String?)
+}
+```
+
 ## Author
 
 Nicholas Wood - [thewhitewood.com](www.thewhitewood.com) / [@thewhitewood](https://twitter.com/thewhitewood)
