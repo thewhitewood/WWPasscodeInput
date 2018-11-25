@@ -1,3 +1,5 @@
+![WWPasscodeInput](https://raw.githubusercontent.com/thewhitewood/WWPasscodeInput/blob/master/images/header.jpg)
+
 # WWPasscodeInput
 
 [![CI Status](https://img.shields.io/travis/nick@thewhitewood.com/WWPasscodeInput.svg?style=flat)](https://travis-ci.org/nick@thewhitewood.com/WWPasscodeInput)
