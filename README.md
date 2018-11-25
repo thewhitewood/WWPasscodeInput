@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/cocoapods/l/WWPasscodeInput.svg?style=flat)](https://cocoapods.org/pods/WWPasscodeInput)
 [![Platform](https://img.shields.io/cocoapods/p/WWPasscodeInput.svg?style=flat)](https://cocoapods.org/pods/WWPasscodeInput)
 
+<img src="http://staging.thewhitewood.com/WWPasscodeInput-screenshot.jpg" alt="screenshot example" />
+
 ## Features
 * Set the length of input required
 * Set the size of input indicators
