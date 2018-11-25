@@ -1,6 +1,4 @@
-![WWPasscodeInput](https://raw.githubusercontent.com/thewhitewood/WWPasscodeInput/blob/master/images/header.jpg)
-
-[[https://github.com/thewhitewood/WWPasscodeInput/blob/master/images/header.jpg|alt=WWPasscodeInput]]
+<img src="http://staging.thewhitewood.com/WWPasscodeInput-header.jpg" alt="" />
 
 # WWPasscodeInput
 
