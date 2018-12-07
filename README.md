@@ -80,6 +80,21 @@ protocol WWPasscodeInputDelegate {
 }
 ```
 
+### Customisation
+
+WWPasscodeInput contains the ability to customise a number of properties detailed below.
+
+Customise the font of the text that appears by using the `font` property. The label itself will centralise on the marker it represents.
+
+The `textColor` of the label can be updated as required.
+
+Set the character count of the WWPasscodeInput via the `passcodeLimit` property.
+
+Adjust the size of the markers via the `markerRadius` property. It is also possible to update the border of the marker via `markerBorderWidth`.
+
+To adjust the colour values of the markers in WWPasscodeInput you can update `markerColour`, `markerOutlineColour`, `completedMarkerColour` and `completedMarkerOutlineColour` where the completed prefix is used to identify the state of the marker once it's input has been completed.
+
+
 ## Author
 
 Nicholas Wood - [thewhitewood.com](www.thewhitewood.com) / [@thewhitewood](https://twitter.com/thewhitewood)
